@@ -348,7 +348,7 @@ print(response.json())
 
 Este proyecto fue creado con fines educativos basado en la clase del viernes 3 de Octubre.
 
-## 👨‍💻 Autor
+## 👨‍💻 Autor Santiago Ruiz
 
 Desarrollado para el curso de API Multi Nivel.
 
