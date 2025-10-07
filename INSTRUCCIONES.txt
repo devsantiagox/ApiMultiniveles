@@ -1,0 +1,87 @@
+╔══════════════════════════════════════════════════════════════════╗
+║                    API MULTI NIVEL                                ║
+║              INSTRUCCIONES DE CONFIGURACIÓN                       ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📋 PASOS PARA INICIAR LA API:
+
+1️⃣ INSTALAR DEPENDENCIAS
+   
+   Abre una terminal en esta carpeta y ejecuta:
+   
+   pip install -r requirements.txt
+
+
+2️⃣ CONFIGURAR API KEYS
+
+   Necesitas crear un archivo llamado ".env" en esta carpeta con el siguiente contenido:
+
+   OPENWEATHER_API_KEY=tu_api_key_aqui
+   OPENAI_API_KEY=tu_api_key_aqui
+   HOST=0.0.0.0
+   PORT=8000
+
+   ¿Cómo obtener las API Keys?
+
+   🌤️ OpenWeather:
+      - Ve a: https://openweathermap.org/api
+      - Crea una cuenta gratuita
+      - Obtén tu API key en la sección "API Keys"
+
+   🤖 OpenAI:
+      - Ve a: https://platform.openai.com/
+      - Crea una cuenta (requiere tarjeta de crédito)
+      - Obtén tu API key en configuración
+
+
+3️⃣ EJECUTAR LA API
+
+   python main.py
+
+   La API estará disponible en: http://localhost:8000
+
+
+4️⃣ PROBAR LA API
+
+   Opción A - Navegador:
+      Abre: http://localhost:8000/docs
+
+   Opción B - Script de prueba:
+      python test_api.py
+
+   Opción C - Ejemplos interactivos:
+      python ejemplos_uso.py
+
+
+📚 DOCUMENTACIÓN COMPLETA:
+
+   Lee el archivo README.md para más información sobre:
+   - Cada uno de los 3 niveles
+   - Ejemplos de uso
+   - Solución de problemas
+   - Costos de las APIs
+
+
+⚠️ NOTAS IMPORTANTES:
+
+   • OpenWeather API es gratuita (hasta 60 llamadas/minuto)
+   • OpenAI API tiene costo (~$0.02-0.08 por imagen)
+   • Las API keys son privadas, no las compartas
+   • Las imágenes se guardan en la carpeta "generated_images/"
+
+
+🆘 ¿PROBLEMAS?
+
+   Si tienes errores al ejecutar la API:
+
+   1. Verifica que instalaste las dependencias
+   2. Verifica que el archivo .env existe y tiene las API keys
+   3. Verifica que las API keys son válidas
+   4. Lee la sección "Troubleshooting" en el README.md
+
+
+═══════════════════════════════════════════════════════════════════
+
+¡Listo! Ya puedes empezar a usar tu API Multi Nivel 🚀
+
+
